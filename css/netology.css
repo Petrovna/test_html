@@ -479,8 +479,59 @@ p.topped{
   margin-top: -1.2em;
 }
 
+/*Два блока в две колонки*/
+.listing {
+  text-align: justify;
+}
 
+.listing:after {
+  content: "";
+  display: inline-block;        
+   width: 100%;               
+ }       
 
+.listing-item {        
+  width: 45%;        
+  text-align: left;        
+  padding: 0;        
+ }       
+
+ .listing-item h3{       
+  font-size: 30px;        
+  font-weight: bold;        
+  text-align: left;        
+  margin-bottom: 40px;        
+ }       
+/*End*/
+
+/*Слайд картинка справа*/
+.slide .place.bottom.right {
+  top: auto;
+  bottom: 110px;
+}
+
+.slide .place.right {
+  right: 40px;
+  left: auto;
+}
+  
+.orange {
+  color: orange;
+  margin-bottom: -30px;
+}
+     
+.orange:before{
+  position:absolute;
+  width:6%;
+  border-top: 4px solid #E0E0E0;
+  content:"";
+}
+
+h3 {
+  margin-bottom: 65px;
+} 
+/*End*/
+                    
 
 
   
